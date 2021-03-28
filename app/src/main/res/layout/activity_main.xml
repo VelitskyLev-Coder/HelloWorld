@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LolKek"
+        android:textColor="#FFFFFF"
+        android:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OnClickBtn2"
+        android:text="LolKekCheburek" />
+
+    <TextView
+        android:id="@+id/textView_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zdarova"
+        android:textSize="20sp" />
+    <!--android:textAppearance="?android:textAppearanceSmall"-->
+
+
+    <EditText
+        android:id="@+id/Edit_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone"
+        android:inputType="number"
+        android:maxEms="8"
+
+        />
+
+</LinearLayout>
+
+
